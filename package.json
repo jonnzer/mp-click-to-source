@@ -1,0 +1,40 @@
+{
+  "name": "mp-click-to-source",
+  "version": "0.7.6",
+  "description": "Dev-only option/alt-click source inspector for WeChat Mini Program (uni-app) projects.",
+  "main": "src/index.js",
+  "bin": {
+    "mp-click-to-source": "bin/mp-click-to-source.js"
+  },
+  "files": [
+    "src",
+    "runtime",
+    "bin",
+    "uni.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "node --test"
+  },
+  "keywords": [
+    "miniprogram",
+    "wechat",
+    "wxml",
+    "inspector",
+    "click-to-source"
+  ],
+  "homepage": "https://github.com/jonnzer/mp-click-to-source#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnzer/mp-click-to-source.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonnzer/mp-click-to-source/issues"
+  },
+  "license": "MIT"
+}
