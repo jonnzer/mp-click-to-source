@@ -1,6 +1,6 @@
 {
   "name": "mp-click-to-source",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "Dev-only option/alt-click source inspector for WeChat Mini Program (uni-app) projects.",
   "main": "src/index.js",
   "bin": {
